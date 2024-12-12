@@ -1,7 +1,7 @@
 #include "MyClass.hpp"
 
 MyClass::MyClass(void) : x(0){
-	std::cout << "MyClass default constructor called" << std::endl;
+	// std::cout << "MyClass default constructor called" << std::endl;
 }
 
 MyClass::MyClass(unsigned int a) : x(a){

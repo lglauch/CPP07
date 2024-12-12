@@ -54,7 +54,7 @@ template<typename T> class Array
 		}
 
 		~Array(){
-			std::cout << "Constructor called" << std::endl;
+			std::cout << "Destructor called" << std::endl;
 			delete[] array;
 		}
 
